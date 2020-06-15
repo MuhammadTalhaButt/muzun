@@ -408,3 +408,11 @@ input::-webkit-input-placeholder {color:#eee;}
 
 .swing:focus + label, .swing:active + label { -webkit-animation: swing 1.4s 1 ease-in-out; animation: swing 1.4s 1 ease-in-out; -webkit-transform: rotate(82deg); transform: rotate(82deg); }
 
+@media (min-width:100px) and (max-width:900px)
+{
+	.header-main{height:auto;min-height: 150px;padding-bottom: 30px;}
+	.contct-top a{text-align:center;margin:0px auto; }
+	.contct-top-one {background-position: 55px 0;}
+	.contct-top-two{background-position: 55px 0; margin-bottom:15px;}
+	.contct-top-three{text-align:center; float:none;}
+}
